@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CatigoryW extends StatelessWidget {
+class Category extends StatelessWidget {
   String image;
   String text;
   Color color;
 
-  CatigoryW({required this.image, required this.text, required this.color});
+  Category({required this.image, required this.text, required this.color});
 
   @override
   Widget build(BuildContext context) {

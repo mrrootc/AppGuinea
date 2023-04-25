@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_icon_button.dart';
+import 'catoryIcon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF363567),
+      backgroundColor: const Color(0xFFF9F9F9),
       // bottomNavigationBar: Container(
       //   height: 80,
       //   width: double.infinity,
@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(80),
                     gradient: const LinearGradient(
                       begin: Alignment.bottomLeft,
-                      colors: [Color(0xFFFFF200), Color(0xFFFD44C4)],
+                      colors: [Color(0xFFFF595E), Color(0xFFFFCA3A)],
                     ),
                   ),
                 ),
@@ -110,7 +110,7 @@ class MyHomePage extends StatelessWidget {
                                 onTap: (){
 
                                 } ,
-                                child: CatigoryW(
+                                child: Category(
                                   image: 'images/Icon1.png',
                                   text: 'Agriculture',
                                   color: Color(0xFF47B4FF),
@@ -120,7 +120,7 @@ class MyHomePage extends StatelessWidget {
                                 onTap: (){
 
                                 } ,
-                                child: CatigoryW(
+                                child: Category(
                                   image: 'images/Icon2.png',
                                   text: 'Tourisme',
                                   color: Color(0xFFA885FF),
@@ -138,7 +138,7 @@ class MyHomePage extends StatelessWidget {
                                 onTap: (){
 
                                 } ,
-                                child: CatigoryW(
+                                child: Category(
                                   image: 'images/Icon3.png',
                                   text: 'Elevage',
                                   color: Color(0xFFFD47DF),
@@ -148,7 +148,7 @@ class MyHomePage extends StatelessWidget {
                                 onTap: (){
 
                                 } ,
-                                child: CatigoryW(
+                                child: Category(
                                   image: 'images/Icon4.png',
                                   text: 'Peche',
                                   color: Color(0xFFFD8C44),
