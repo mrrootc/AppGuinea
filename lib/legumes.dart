@@ -6,6 +6,7 @@ class Legumes extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text("Legumes"),
+        backgroundColor: Color(0xFFFF595E),
       ),
       body: ListView(
         children: [
@@ -49,55 +50,55 @@ class Legumes extends StatelessWidget{
                 ),
               ),
               SizedBox(height: 20),
-              Text(
-                'Quelque legumes :',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    fontFamily: "Satisfy"
-                ),
-              ),
+              // Text(
+              //   'Quelque legumes :',
+              //   style: TextStyle(
+              //       fontWeight: FontWeight.bold,
+              //       fontSize: 20,
+              //       fontFamily: "Satisfy"
+              //   ),
+              // ),
               SizedBox(height: 10),
-              Container(
-                height: 300,
-                padding: EdgeInsets.only(left: 40),
-                width: 400,
-                child: ListView(
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    Container(
-                      child: Container(
-                          padding: EdgeInsets.all(10),
-                          child: Column(
-                            children: [
-                              Container(
-                                height: 100,
-                                child: Row(
-                                  children: [
-                                    _buildCerealItem('Manioc', 'images/manioc.jpeg', 'Saison de semence en Guinée Ainsi, pour la période testée novembre, décembre, les deux premières décades de novembre sont favorables à la plantation alors que les récoltes échelonnées, \n Cultuvable en Haute-Guinée.',context),
-                                    _buildCerealItem('Pomme de terre', 'images/pomme.jpeg', 'Saison de semence en guinée "saison pluvieux", cultivable en "Basse et Moyenne Guinée',context),
-                                    _buildCerealItem('Patate', 'images/patate.jpeg', 'Saison de semence: une saison sèche qui couvre généralement la période de novembre à avril et une saison pluvieuse qui s\'étend de mai à octobre,\ncultivable "dans tous les regions de la guinée"',context),
-
-                                  ],
-                                ),
-                              ),
-                              Container(
-                                margin: EdgeInsets.only(left: 70),
-                                child: Row(
-                                  children: [
-                                    _buildCerealItem('Taro', 'images/taro.jpeg', 'saison de semence "en avril au début de la saison des pluie ",retrouver en "Basse et haute Guinée',context),
-                                    _buildCerealItem('Igname', 'images/igname.jpg', 'Saison de semence en guinée "début août- jusqu’en fin septembre", retrouver abondamment en "Basse guinée" et en "Haute Guinée"',context),
-                                  ],
-                                ),
-                              )
-                            ],
-                          )
-                      ),
-                    )
-
-                  ],
-                ),
-              ),
+              // Container(
+              //   height: 300,
+              //   padding: EdgeInsets.only(left: 40),
+              //   width: 400,
+              //   child: ListView(
+              //     scrollDirection: Axis.vertical,
+              //     children: [
+              //       Container(
+              //         child: Container(
+              //             padding: EdgeInsets.all(10),
+              //             child: Column(
+              //               children: [
+              //                 Container(
+              //                   height: 100,
+              //                   child: Row(
+              //                     children: [
+              //                       _buildCerealItem('Manioc', 'images/manioc.jpeg', 'Saison de semence en Guinée Ainsi, pour la période testée novembre, décembre, les deux premières décades de novembre sont favorables à la plantation alors que les récoltes échelonnées, \n Cultuvable en Haute-Guinée.',context),
+              //                       _buildCerealItem('Pomme de terre', 'images/pomme.jpeg', 'Saison de semence en guinée "saison pluvieux", cultivable en "Basse et Moyenne Guinée',context),
+              //                       _buildCerealItem('Patate', 'images/patate.jpeg', 'Saison de semence: une saison sèche qui couvre généralement la période de novembre à avril et une saison pluvieuse qui s\'étend de mai à octobre,\ncultivable "dans tous les regions de la guinée"',context),
+              //
+              //                     ],
+              //                   ),
+              //                 ),
+              //                 Container(
+              //                   margin: EdgeInsets.only(left: 70),
+              //                   child: Row(
+              //                     children: [
+              //                       _buildCerealItem('Taro', 'images/taro.jpeg', 'saison de semence "en avril au début de la saison des pluie ",retrouver en "Basse et haute Guinée',context),
+              //                       _buildCerealItem('Igname', 'images/igname.jpg', 'Saison de semence en guinée "début août- jusqu’en fin septembre", retrouver abondamment en "Basse guinée" et en "Haute Guinée"',context),
+              //                     ],
+              //                   ),
+              //                 )
+              //               ],
+              //             )
+              //         ),
+              //       )
+              //
+              //     ],
+              //   ),
+              // ),
             ],
           ),
         ],

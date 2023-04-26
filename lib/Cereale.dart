@@ -6,6 +6,7 @@ class Cereale extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text("Les Cereales"),
+        backgroundColor: Color(0xFFFF595E),
       ),
       body: ListView(
         children: [

@@ -11,6 +11,7 @@ class Agriculture extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Agriculture'),
+        backgroundColor: Color(0xFFFF595E),
       ),
       body: ListView(
         children: [
