@@ -15,7 +15,7 @@ class Category extends StatelessWidget {
         width: 160,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
-          color: Color(0x9F3D416E),
+          color: Color(0x9FB8BAC2),
         ),
         child: Column(
           children: [

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn/Agriculture.dart';
 import 'catoryIcon.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      home: Agriculture(),
     );
   }
 }
@@ -84,7 +85,7 @@ class MyHomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'GUINEE CONAKRY',
                       style: TextStyle(
                         color: Colors.white,
@@ -92,10 +93,10 @@ class MyHomePage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
-                    Text(
+                   const Text(
                       'Bienvenue en guinee \n un pays plein de merveille ',
                       style: TextStyle(color: Colors.white, fontSize: 18),
                     ),
@@ -106,17 +107,17 @@ class MyHomePage extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              InkWell(
-                                onTap: (){
-
-                                } ,
+                              GestureDetector(
+                              onTap: (){
+                                print('clie');
+                              },
                                 child: Category(
                                   image: 'images/Icon1.png',
                                   text: 'Agriculture',
                                   color: Color(0xFF47B4FF),
                                 ),
                               ),
-                              InkWell(
+                              GestureDetector(
                                 onTap: (){
 
                                 } ,
@@ -134,7 +135,7 @@ class MyHomePage extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              InkWell(
+                              GestureDetector(
                                 onTap: (){
 
                                 } ,
@@ -144,7 +145,7 @@ class MyHomePage extends StatelessWidget {
                                   color: Color(0xFFFD47DF),
                                 ),
                               ),
-                              InkWell(
+                              GestureDetector(
                                 onTap: (){
 
                                 } ,
