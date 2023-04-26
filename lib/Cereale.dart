@@ -86,7 +86,14 @@ class Cereale extends StatelessWidget{
             context: context,
             builder: (BuildContext context) {
               return AlertDialog(
-                title: Text(titre, style: TextStyle(fontFamily: "Satisfy"),),
+                title:
+                Container(
+                    height: 100,
+                    color: Color(0xFFFFCA3A),
+                    child:
+                    Text(titre, style: TextStyle(fontFamily: "Satisfy"),
+                    )
+                ),
                 content: Container(
                   child: Column(
                     children: [

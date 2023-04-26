@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learn/Cereale.dart';
+import 'package:learn/Tubercule.dart';
+import 'package:learn/legumes.dart';
 
 import 'main.dart';
 
@@ -57,7 +59,9 @@ class Agriculture extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              print('2 cliquée');
+              Navigator.push(context,
+              MaterialPageRoute(builder: (context) => Tubercule()),
+              );
             },
             child: Card(
               margin: const EdgeInsets.all(30),
@@ -97,8 +101,8 @@ class Agriculture extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
-              // Ajoutez ici le code à exécuter lorsque la carte est cliquée
-              print('Carte 3 cliquée');
+             Navigator.push(context,
+                 MaterialPageRoute(builder: (context) => Legumes()));
             },
             child: Card(
               margin: const EdgeInsets.all(30),

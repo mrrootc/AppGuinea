@@ -78,6 +78,13 @@ flutter:
     - images/mais.jpg
     - images/fonio.jpg
     - images/mil.jpeg
+    - images/tubercule2.jpg
+    - images/pomme.jpeg
+    - images/manioc.jpeg
+    - images/patate.jpeg
+    - images/taro.jpeg
+    - images/igname.jpg
+    - images/carte.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
